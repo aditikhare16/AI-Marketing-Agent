@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insights and Reports</title>
+</head>
+<body>
+    <h1>AI-Generated Insights</h1>
+    <p>{{ report['insights'] }}</p>
+    <h2>Actions Taken</h2>
+    <ul>
+        {% for action in report['actions'] %}
+            <li>{{ action['Campaign ID'] }}: {{ action['Action'] }} - {{ action['Reason'] }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Visualizations</h2>
+    <img src="{{ url_for('static', filename='visuals/roas_visualization.png') }}" alt="ROAS Visualization">
+    <img src="{{ url_for('static', filename='visuals/ctr_visualization.png') }}" alt="CTR Visualization">
+</body>
+</html>
