@@ -60,7 +60,7 @@ This project is a Flask-based web application designed to automate the analysis 
 ## Sample Input Data
 
 ### Required CSV Format
-Create a CSV file named `campaign_data.csv` with the following columns:
+Create a CSV file named `campaign_data.csv` with the following columns: (example)
 
 | Campaign ID | Impressions | Clicks | Conversions | Spend | Revenue | Status  |
 |-------------|-------------|--------|-------------|-------|---------|---------|
@@ -90,9 +90,6 @@ Create a CSV file named `campaign_data.csv` with the following columns:
 The report generated will include:
 - Actions taken (e.g., pause, increase, or decrease budget).
 - Generated insights suggesting improvements for ad creatives or targeting.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - [Flask](https://flask.palletsprojects.com/)
