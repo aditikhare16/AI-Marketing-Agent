@@ -91,13 +91,4 @@ The report generated will include:
 - Actions taken (e.g., pause, increase, or decrease budget).
 - Generated insights suggesting improvements for ad creatives or targeting.
 
-## Acknowledgments
-- [Flask](https://flask.palletsprojects.com/)
-- [Pandas](https://pandas.pydata.org/)
-- [OpenAI API](https://platform.openai.com/)
-- [MongoDB](https://www.mongodb.com/)
-
-## Troubleshooting
-- **Missing packages**: Ensure all packages are listed in `requirements.txt`.
-- **API key issues**: Double-check that the OpenAI API key is correct and has sufficient permissions.
 
