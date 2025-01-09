@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Marketing Campaign Optimization
 
 ## Overview
